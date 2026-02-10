@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main(){
+
+   std::string namee="Sankalp";
+    int age =18;
+   std::string freepizza[3]={"pizza1","pizza2","pizza3"};
+
+   std::string *pName=&namee;
+   int *pAge = &age;
+   std::string *pFreepizza=freepizza;
+
+   std::cout<<*pName<<'\n';
+   std::cout<<*pAge<<'\n';
+   std::cout<<*pFreepizza<<'\n';
+
+   return 0;
+}
